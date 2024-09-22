@@ -7,7 +7,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../../Assets/../Assets/RoiCV.pdf";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
+import 'react-pdf/dist/esm/Page/TextLayer.css';
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
